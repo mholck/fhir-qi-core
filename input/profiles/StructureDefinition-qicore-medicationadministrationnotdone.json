@@ -83,14 +83,14 @@
           "isSummary" : true
         },
         {
-          "id" : "MedicationAdministration.extension:recorded",
+          "id" : "MedicationAdministration.modifierExtension:recorded",
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-keyelement",
               "valueBoolean" : true
             }
           ],
-          "path" : "MedicationAdministration.extension",
+          "path" : "MedicationAdministration.modifierExtension",
           "sliceName" : "recorded",
           "short" : "(QI) Recorded",
           "min" : 1,

@@ -73,12 +73,12 @@
         "short": "A set of rules under which this content was created"
       },
       {
-        "id" : "Procedure.extension:recorded",
+        "id" : "Procedure.modifierExtension:recorded",
         "extension" : [{
           "url" : "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-keyelement",
           "valueBoolean" : true
         }],
-        "path" : "Procedure.extension",
+        "path" : "Procedure.modifierExtension",
         "sliceName" : "recorded",
         "short" : "(QI) When the procedure was first captured in the subject's record",
         "min" : 0,
